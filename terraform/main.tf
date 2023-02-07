@@ -1,5 +1,5 @@
 resource "aws_iam_role" "lambda_role" {
-name   = "Spacelift_Test_Lambda_Function_Role"
+name   = "lambda_role"
 assume_role_policy = <<EOF
 {
  "Version": "2012-10-17",
