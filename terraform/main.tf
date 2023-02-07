@@ -9,7 +9,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "khatrig-githubaction"
-    key = lambda.tfstate"
+    key = "lambda.tfstate"
     region = "us-east-1"
   }
 }
